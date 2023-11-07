@@ -4,6 +4,15 @@ let submitButton = document.querySelector(".submit")
 
 let orderedList = document.querySelector("ol")
 
+todoInput.addEventListener(
+  "keydown" , function(event){
+    if(event.key === "Enter"){
+      submitButton.click()
+    }
+  }
+)
+
+
 submitButton.addEventListener(
   "click",()=>{
     let stringValue = todoInput.value
