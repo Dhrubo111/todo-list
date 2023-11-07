@@ -1,0 +1,83 @@
+
+
+.content{
+  display: flex;
+  flex-direction: column;
+  gap:30px
+  
+
+
+}
+
+.submit{
+  width: 250px;
+  font-weight: 900;
+  font-size: 30px;
+  margin-bottom: 0;
+  
+  
+}
+
+
+.content{
+  border: 10px solid wheat;
+  max-width:  600px;
+  align-items: center;  
+  margin: 0 auto;
+  padding-bottom: 10px;
+  min-height: 600px;
+  justify-content: space-between;
+  
+}
+
+
+input{
+  width: 250px;
+  font-weight: 900;
+  font-size:30px;
+
+}
+
+@keyframes textColorChange {
+  0% { color: red; }
+  25% { color: blue; }
+  50% { color: green; }
+  75% { color: orange; }
+  100% { color: purple; }
+}
+
+
+
+h1{
+
+  font-weight: 900;
+  font-size: 40px;
+  animation: textColorChange 2s infinite;
+  margin-top: 0;
+}
+
+
+.todo-lists{
+
+  font-weight: 900;
+  font-size: 30px;
+
+}
+
+
+.delete{
+
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 15px;
+  background-color: #DA0C81;
+  color: white;
+}
+
+
+.give-space{
+
+  animation: textColorChange 2s infinite;
+}
+
+
