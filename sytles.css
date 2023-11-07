@@ -1,4 +1,6 @@
-
+body{
+  background-color: black;
+}
 
 .content{
   display: flex;
@@ -20,7 +22,7 @@
 
 
 .content{
-  border: 10px solid wheat;
+  border: 10px solid orangered;
   max-width:  600px;
   align-items: center;  
   margin: 0 auto;
